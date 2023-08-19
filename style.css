@@ -1,0 +1,30 @@
+
+
+
+.wrapper{
+    padding: 25px;
+    border-radius: 10px;
+    background: #b02323;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+
+  .cards .card{
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    height: calc(100% / 4 - 10px);
+    width: calc(100% / 4 - 10px);
+    background-color: #bd4c4c;
+  }
+  .center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -225px;
+    pointer-events: none;
+  }
+
